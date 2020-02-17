@@ -16,5 +16,14 @@ namespace Calc
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            float A, B, RES;
+            A = float.Parse(textBox1.Text);
+            B = float.Parse(textBox2.Text);
+            RES = A /B;
+            textBox3.Text = RES.ToString();
+        }
     }
 }
