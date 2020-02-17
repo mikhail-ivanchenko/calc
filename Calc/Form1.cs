@@ -12,9 +12,32 @@ namespace Calc
 {
     public partial class Form1 : Form
     {
+        private int i;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            float a;
+            float b;
+            float res;
+
+            a = float.Parse(textBox1.Text);
+            b = float.Parse(textBox2.Text);
+            res = a + b;
+            textBox3.Text = res.ToString();
+            
+             
+               
+            
+
+          
+            
+               
+            
         }
     }
 }
