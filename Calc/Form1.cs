@@ -27,7 +27,7 @@ namespace Calc
 
             a = float.Parse(textBox1.Text);
             b = float.Parse(textBox2.Text);
-            res = a + b;
+            res = a % b;
             textBox3.Text = res.ToString();
             
              
